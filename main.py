@@ -2,7 +2,6 @@
 #Imports
 from Modules.menu import Menu
 from Modules.messages import Messages
-
 menuApplication = Menu()
 applicationMessages = Messages()
 
@@ -13,6 +12,7 @@ def main():
             break
         menuApplication.verifyOption(menuId)
     
+    applicationMessages.applicationDivisor()
     applicationMessages.byeMessage()
     
 

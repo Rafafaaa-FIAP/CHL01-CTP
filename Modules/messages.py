@@ -6,7 +6,10 @@ class Messages:
     
     @staticmethod
     def byeMessage():
-        return print(" \033[1;34m Obrigado por utilizar o sistema InfoCR! \033[0m")
+        link = "https://infocr.vercel.app/"
+        print(" \033[1;34m Obrigado por utilizar o sistema InfoCR! \033[0m\n")
+        print(f"\033[1;34m Para uma melhor experiência, acesse:\033[0m \033[92m{link}\033[0m")
+        return 
     
 
     @staticmethod
