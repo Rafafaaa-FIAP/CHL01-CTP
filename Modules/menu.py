@@ -40,8 +40,8 @@ class Menu:
             messages.optionMessage("\033[1;34m                                            CONTATO INFOCR    \033[0m")
             messages.optionMessage("\033[1;34m Sobre o Instituto\033[0m")
             messages.optionMessage('O Instituto da Criança do Hospital das Clínicas é considerado centro de referência nacional em saúde da criança e atende pacientes do Sistema Único de Saúde e de operadoras de planos de saúde (Saúde Suplementar).')
-            for _ in range(3):
-                print("")  # Adiciona algumas linhas vazias para separar visualmente a saída
+            
+            messages.spaceDivisor(3)
         
             messages.optionMessage("\033[1;34m Contato\033[0m")
             messages.optionMessage("""ICr Instituto da Criança e do Adolescente
@@ -52,8 +52,7 @@ ITACI – (11) 2661-8962 ou (11) 2661-8963, das 14:00 às 16:00
 Agendamento de exames – de 2ª a 6ª feira
 (11) 2661-8548 ou (11) 2661-8670 ou pessoalmente no 2º andar do ICr – das 11:00 às 15:00""")
         
-            for _ in range(3):
-                print("")  # Adiciona algumas linhas vazias para separar visualmente a saída
+            messages.spaceDivisor(3)
         
             return
         
@@ -64,8 +63,7 @@ Agendamento de exames – de 2ª a 6ª feira
             messages.optionMessage("\033[1;34m Endereço\033[0m")
             messages.optionMessage("Av. Dr. Enéas Carvalho de Aguiar, 647 - Cerqueira César, São Paulo - SP, 05403-000")
         
-            for _ in range(5):
-                print("")  # Adiciona algumas linhas vazias para separar visualmente a saída
+            messages.spaceDivisor(3)
         
             
             return 

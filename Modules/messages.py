@@ -16,6 +16,12 @@ class Messages:
     def applicationDivisor():
         return print("****************************************************************************************************")
     
+    @staticmethod
+    def spaceDivisor(spaceMin):
+        for _ in range(int(spaceMin)):
+                print("")  # Adiciona algumas linhas vazias para separar visualmente a saída
+        return
+    
 
 
     @staticmethod
@@ -26,6 +32,6 @@ class Messages:
     @staticmethod
     def errorMessages(error):
         if(error == "option"): return print("\033[91m Opção inválida\033[0m")
-        if(error == "type"): return print("\033[91m Opção inválida\033[0m")
+        if(error == "empty"): return print("\033[91m Não foi possível localizar o exame em nossa base de dados!\033[0m")
             
      
