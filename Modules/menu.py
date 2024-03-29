@@ -1,5 +1,8 @@
 from Modules.messages import Messages
+from Modules.exames import Exames
 messages = Messages()
+exames = Exames()
+
 
 class Menu:
 
@@ -66,7 +69,10 @@ Agendamento de exames – de 2ª a 6ª feira
         
             
             return 
-        if(selectedOption == "3"): return print("Logica para 3")
+        if(selectedOption == "3"): 
+            
+            exames.searchExames("")
+            
         if(selectedOption == "4"): return print("Logica para 4")
 
 
