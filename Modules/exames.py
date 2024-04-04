@@ -4,10 +4,10 @@ messages = Messages()
 class Exames:
     def __init__(self):
         self._exames = {
-           "Exame": ["hemograma", "glicose", "ureia", "blastomicose", "paratormonio"],
-           "Sigla" : ["HEMO", "GLI", "URE", "BLAST", "PTH" ],
-           "Seção" : ["HE", "BIO", "BIO", "IMU", "HOR"],
-           "Descrição": ["Teste01", "Teste02" , "Teste03" , "Teste04", "Teste05"] 
+           "Exame": ["hemograma", "raio x", "ressonancia magnetica"],
+           "Sigla" : ["HEMO", "RX", "RM"],
+           "Seção" : ["HE", "BIO", "BIO"],
+           "Descrição": ["O hemograma é um exame de sangue que avalia diversos componentes do sangue, como glóbulos vermelhos, glóbulos brancos, plaquetas e hemoglobina. Ele é usado para diagnosticar diversas doenças, como anemia, infecções, leucemia e problemas de coagulação sanguínea.", "O raio-X é um exame de imagem que utiliza radiação para visualizar ossos, órgãos e tecidos do corpo. Ele é usado para diagnosticar diversas doenças, como fraturas, pneumonia, tumores e doenças cardíacas." , "A ressonância magnética (RM) é um exame de imagem que utiliza um campo magnético e ondas de rádio para gerar imagens detalhadas do corpo. Ela é usada para diagnosticar diversas doenças, como tumores, doenças musculares e articulares, problemas na coluna vertebral e doenças do cérebro."] 
         }
     
     def searchExames(self, exameInput):

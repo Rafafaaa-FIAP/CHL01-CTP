@@ -71,7 +71,32 @@ Agendamento de exames – de 2ª a 6ª feira
             
             exames.searchExames("")
             
-        if(selectedOption == "4"): return print("Logica para 4")
+        if(selectedOption == "4"): 
+            messages.applicationDivisor()
+            messages.optionMessage("\033[1;34m                                           Área Kids    \033[0m")
+            messages.optionMessage("\033[1;34m Dicas para se divertir durante os exames \033[0m")
+            
+            messages.optionMessage("""•Leve um brinquedo ou livro para se distrair.
+•Imagine que você está em um lugar mágico e divertido.
+•Respire fundo e relaxe.
+•Converse com o médico se tiver alguma dúvida ou medo.
+                                                                      """)
+
+            messages.spaceDivisor(1)
+
+            messages.optionMessage("\033[1;34m Lembre-se! \033[0m")
+            
+            messages.optionMessage("""•Os exames são rápidos e seguros.
+•Eles ajudam os médicos a cuidar da sua saúde.
+•Você não está sozinho! Muitas crianças já fizeram esses exames e se divertiram.
+                                                                      """)
+            
+            messages.spaceDivisor(1)
+
+            messages.optionMessage("\033[92m Com essas dicas, você estará pronto para viver grandes aventuras no mundo dos exames!    \033[0m")
+            messages.spaceDivisor(3)
+
+
 
 
 
